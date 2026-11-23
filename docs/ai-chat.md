@@ -5,6 +5,14 @@ icon: material/assistant
 description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
 cover: ai-chatbots.webp
 ---
+
+<!--
+SPDX-FileCopyrightText: 2025-2026 Jonah Aragon
+SPDX-FileCopyrightText: 2024-2026 The Privacy Guides contributors
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 <small>Protects against the following threat(s):</small>
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
@@ -99,7 +107,7 @@ Kobold.cpp allows you to modify parameters such as the AI model temperature and 
 
 **Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
 
-In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
+In addition to supporting a wide range of text models, Ollama supports vision models such as [LLaVA](https://github.com/haotian-liu/LLaVA) and Meta's [Llama 3.2 Vision](https://ollama.com/library/llama3.2-vision), which can process images alongside text.
 
 [:octicons-home-16: Homepage](https://ollama.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ollama/ollama#readme){ .card-link title="Documentation" }
